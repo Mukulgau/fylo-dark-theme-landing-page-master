@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+$intro-bg:hsl(217,28%,15%);
+$main-bg:hsl(218,28%,13%);
+$footer-bg:hsl(216,53%,9%);
+$testimonial-bg:hsl(219,30%,18%);
+$error:hsl(0,100%,63%);
+$blue:hsl(198,60%,50%);
+$cyan:hsl(176,68%,64%);
+$open-sans: 'Open Sans', sans-serif;
+$raleway:'Raleway', sans-serif;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: $open-sans;
+}
+
+.container{
+  width: 1400px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+img{
+  max-width: 100%;
+}
+
+.flex{
+  display: flex;
+}
+
+.text-wrapper, .img-wrapper{
+  flex: 1;
+}
